@@ -5,3 +5,4 @@ B.S Candidate in Computer Science (Privacy & Security), Minor in Accounting (GPA
 Expected May 2027 
 Relevant Coursework: Introduction to Computer Science, Data Structures, Project-Based Object-Oriented Programming 
 Honors: Dean’s List Fall 2024, Dean’s List Winter 2025, Dean’s List Spring 2025, President’s List 2024-2025 
+[Visit it here](https://Scott-Eisenberg.github.io)
