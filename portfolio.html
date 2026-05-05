@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title> Portfolio</title>
-        <link rel = "stylesheet" href = "styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio | Scott Eisenberg</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <nav class = "navbar">
-            <h1 class = "logo"><a href = "index.html">personal website</a> </h1>
-            <ul class = "nav-list">
+        <nav class="navbar">
+            <h1 class="logo"><a href="index.html">Scott Eisenberg</a></h1>
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav class = "navbar">
+        </nav>
+
         <main>
-            <h1 class = "Portfolio">Portfolio</h1>
-            <div class = "project">
-                <a href = "index.html">
-                    <img src="sunset.png" alt="A photo of the sunset" width = "300", height = "300">
+            <h1>Portfolio</h1>
+            <article class="project">
+                <a class="item-link" href="index.html">
+                    <img class="project-image" src="sunset.png" alt="A sunset over the ocean" />
                 </a>
-                <div class = "project-details">
-                        <p class = "project-name">
-                            <strong>Personal Website</strong>
-                        </p>
-                        <p class = "project-description">
-                            Personal Website for Scott Eisenberg
-                        </p>
-                    </div>
-                <a href = "index.html">
-                    Learn More
-                </a>
-            </div>
+                <div class="project-details">
+                    <p class="project-name">Personal Website</p>
+                    <p class="project-description">A responsive personal website for Scott Eisenberg.</p>
+                    <a class="project-cta" href="index.html">Learn More</a>
+                </div>
+            </article>
         </main>
-        <footer class = "footer"> © 2023 <Personal Website Name> | All Rights Reserved</footer>
+
+        <footer>&copy; 2026 Scott Eisenberg | All Rights Reserved</footer>
     </body>
 </html>
