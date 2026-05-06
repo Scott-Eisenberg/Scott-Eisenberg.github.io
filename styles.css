@@ -2,7 +2,6 @@
   --ink: #171717;
   --muted: #5f6468;
   --paper: #ffffff;
-  --wash: #f6f7f7;
   --line: #d9dddf;
   --accent: #145f55;
   --accent-warm: #984b39;
@@ -58,7 +57,7 @@ a:hover {
   gap: 24px;
   width: 100%;
   padding: 18px clamp(20px, 5vw, 64px);
-  background: rgba(255, 255, 255, 0.96);
+  background: var(--paper);
   border-bottom: 1px solid var(--line);
 }
 
@@ -362,9 +361,9 @@ textarea {
   width: 100%;
   margin-bottom: 24px;
   padding: 12px 0;
+  appearance: none;
   border: 0;
   border-bottom: 1px solid var(--line);
-  border-radius: 0;
   background: transparent;
   color: var(--ink);
   font: inherit;
